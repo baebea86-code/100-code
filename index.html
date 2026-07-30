@@ -3,44 +3,31 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
     <link rel="stylesheet" href="style.css">
-    <title>Document</title>
+    <title>Bea Writes</title>
 </head>
 <body>
     <header>
-        <nav>
-            <ul class="list">
-                <li><a href="#">logo</a></li>
-                <li><a href="#home">home</a></li>
-                <li><a href="#about">about</a></li>
-                <li><a href="#poems">poems</a></li>
-                <li><a href="#contact">contact</a></li>
-            </ul>
-        </nav>
+     <div>
+      <span class="material-symbols-outlined">menu</span>
+      <img src="./assets/logo.svg" alt="Bea Writes Logo" class="logo">
+    </div>
 
-        <hero class="hero">
-            <h1>Words Lips Fail To Utter</h1>
-            <p>Lets Journey Together.</p>
-            <button class="btn">Read More</button>
-        </hero>
-
-     <section id="projects" class="section">
-        <div class="container">
-            <div class="row g-4">
-                <div class="col-md-6 col-lg-4">
-                    <div class="project-card h-100">
-                        <img src="./assets/netflix.png" alt="Netflix">
-                        <h3>Netflix Landing Page Clone</h3>
-                        <p>Built using only Html and Css</p>
-                        <h5>Case Study</h5>
-                        <p>In this project, I recreated the Netflix landing page using HTML and CSS. The goal was to replicate the layout, design, and responsiveness of the original page. I focused on using semantic HTML elements and CSS Flexbox to achieve a clean and organized structure. This project helped me improve my understanding of web design principles and responsive web development.</p>
-                        <div class="project-link">
-                            <a href="https://nitfle-page.netlify.app/" class="btn btn-success" target="_blank">Live</a>
-                            <a href="https://github.com/baebea86-code/Fake-Netflix22.git" class="btn btn-success" target="_blank">Github</a>
-                        </div>
-                    </div>
-                </div>
-
+    <div>
+        <input type="search" placeholder="Search" id="search">
+        <span id="search icon" class="material-symbols-outlined">search</span>
+        <span id="voice search" class="material-symbols-outlined">mic</span>
+    </div>
+ 
+    <div>
+          <button> + Create </button>
+          <button id="theme-toggle" type="button" aria-label="Switch to light mode">
+          <span class="material-symbols-outlined">light_mode</span>
+          </button>
+          <span class="material-symbols-outlined">notifications</span>
+          <span class="material-symbols-outlined">account_circle</span>
+    </div>
     </header>
 
 </body>
